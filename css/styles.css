@@ -1,0 +1,134 @@
+#main {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+}
+.mainnavbar{
+  position: relative;
+}
+.anavigif{
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  position: sticky;
+  max-width: 50%;
+  margin-left: 30%;
+
+  margin-top: 7%;
+  align-self: flex-end;
+}
+.aboutme{
+  position: absolute;
+  left: 23%;
+  top: 20%;
+  font-family: 'Roboto';
+  font-size: 0.5rem;
+}
+.contacts{
+  position: absolute;
+  transform: rotate(-90deg);
+  left: 70%;
+  top:25%;
+  font-family: 'Roboto';
+  font-size: 0.5rem;
+  float:right;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  font-size: 150%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.projects{
+background-color: white;
+height: 100%;
+font-family: 'Roboto';
+font-size: 4rem;
+
+}
+.cv{
+  position: absolute;
+  right: 40%;
+  font-family: 'Roboto';
+  font-size: 0.5rem;
+}
+.hrefprojects{
+  position: absolute;
+  right: 30%;
+  font-family: 'Roboto';
+  font-size: 0.5rem;
+}
+.graphics{
+  position: absolute;
+  left: 22%;
+  font-family: 'Roboto';
+  font-size: 0.5rem;
+  transform: rotate(-90deg);
+  bottom: 0%;
+}
+.textpr{
+font-family: 'Roboto';
+font-size: 4rem;
+}
+
+#choosepr{
+  width: 100%;
+height: 100%;
+background-color: black;
+}
+@media only screen and (max-width:600px){
+  .projects{
+    font-size: 1rem;
+  }
+}
+.firstimg{
+  position: absolute;
+  margin: 0%;
+  width: 30%;
+}
+
+.marquee span:nth-child(1) {
+  animation-delay: 0s;
+}
+.marquee span:nth-child(2) {
+  animation-delay: 10s;
+}
+.firstjpg{
+  width: 344px;
+  margin-left: 13%;
+  margin-top: 25%;
+}
+.firsttext{
+  margin-top: 25%;
+  margin-right: 40%;
+  font-size: 10px;
+}
+.secondjpg{
+  width: 410px;
+height: 546.67px;
+margin-top: 25%;
+
+}
+.secondtext{
+  font-size: 10px;
+  margin-top: 35%;
+  margin-right: 30%;
+  text-align: center;
+}
